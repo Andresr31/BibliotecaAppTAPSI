@@ -28,7 +28,7 @@ public class Autor extends Persona {
      */
     private String direccion;
     
-    private string paisOrigen;
+    private String paisOrigen;
     
     ///////////////////////////////////////////////////////////////
     /// Método constructor
@@ -56,7 +56,6 @@ public class Autor extends Persona {
         this.profesion = profesion;
     }
 
-<<<<<<< HEAD
     public String getDireccion() {
         return direccion;
     }
@@ -66,17 +65,14 @@ public class Autor extends Persona {
     }
 
     
-=======
-    public string getPaisOrigen() {
+    public String getPaisOrigen() {
         return paisOrigen;
     }
 
-    public void setPaisOrigen(string paisOrigen) {
+    public void setPaisOrigen(String paisOrigen) {
         this.paisOrigen = paisOrigen;
     }
 
->>>>>>> b88a60c550a16ae23f229a666978b1bd1f8ca90f
-   
     
     
 }
