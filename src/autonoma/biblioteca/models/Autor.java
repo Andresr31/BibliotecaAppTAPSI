@@ -8,6 +8,7 @@ package autonoma.biblioteca.models;
 /**
  *
  * @author Juan José Bergaño Arboleda
+ * @author Carlos Andrés Rojas Parra
  */
 
 ///////////////////////////////////////////////////////////////
@@ -22,16 +23,46 @@ public class Autor extends Persona {
      * Profesión
      */
     private String profesion;
+    /**
+     * Lugar de residencia del autor
+     */
+    private String direccion;
     
     ///////////////////////////////////////////////////////////////
     /// Método constructor
 
-    public Autor(String editorial, String profesion, String nombre, String documentoIdentidad, String correoElectronico) {
+    public Autor(String editorial, String profesion, String nombre, String documentoIdentidad, String correoElectronico, String direccion) {
         super(nombre, documentoIdentidad, correoElectronico);
         this.editorial = editorial;
         this.profesion = profesion;
+        this.direccion = direccion;
     }
 
+    public String getEditorial() {
+        return editorial;
+    }
+
+    public void setEditorial(String editorial) {
+        this.editorial = editorial;
+    }
+
+    public String getProfesion() {
+        return profesion;
+    }
+
+    public void setProfesion(String profesion) {
+        this.profesion = profesion;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    
    
     
     
