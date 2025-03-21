@@ -27,6 +27,9 @@ public class Autor extends Persona {
      * Lugar de residencia del autor
      */
     private String direccion;
+    /**
+     * Pais de origen
+     */
     
     private String paisOrigen;
     
